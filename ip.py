@@ -1,5 +1,14 @@
 #!/usr/bin/python3
 #-*-coding:utf-8-*-
+clear
+bi='\033[34;1m' #biru
+i='\033[32;1m' #ijo
+pur='\033[35;1m' #purple
+cy='\033[36;1m' #cyan
+me='\033[31;1m' #merah
+pu='\033[37;1m' #putih
+ku='\033[33;1m' #kuning
+
 
 
 
@@ -13,7 +22,18 @@ def jalan(z):
 
 def logo():
     print("""
-    
+echo
+echo
+echo
+echo $i"["$bi"•"$i"]"$me"───────────────────────────────────────────"$i"["$bi"•"$i"]"
+echo $i" |"$cy"     INDONESIA CYBER - SGB TEAM "$i" |"
+echo $i" |"$me"─────────────────────────────────────────────"$i"|"
+echo $i" |"$pu" AUTHOR :"$ku" wapbaru.com  "$i"          |"
+echo $i" |"$pu" Contact Email :"$ku" wwx@dr.com"$i"      |"
+echo $i"["$bi"•"$i"]"$me"───────────────────────────────────────────"$i"["$bi"•"$i"]"
+echo
+echo $i"────────────────────────────────   ─────"
+
   (untuk run gunakan command line : python ip.py)
   """)
 
