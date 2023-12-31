@@ -149,15 +149,7 @@ def iptarget():
         tz = " "
     try:
 	    
-	de = a["lat"]
-    except KeyError:
-        de = " "
-    try:
-
-        di = a["lon"]
-    except KeyError:
-        di = " "
-    try: 
+	
         sp = a["isp"]
     except KeyError:
         sp = " "
