@@ -22,19 +22,15 @@ def jalan(z):
 
 def logo():
     print("""
-echo
-echo
-echo
-echo $i"["$bi"•"$i"]"$me"───────────────────────────────────────────"$i"["$bi"•"$i"]"
-echo $i" |"$cy"     INDONESIA CYBER - SGB TEAM "$i" |"
-echo $i" |"$me"─────────────────────────────────────────────"$i"|"
-echo $i" |"$pu" AUTHOR :"$ku" wapbaru.com  "$i"          |"
-echo $i" |"$pu" Contact Email :"$ku" wwx@dr.com"$i"      |"
-echo $i"["$bi"•"$i"]"$me"───────────────────────────────────────────"$i"["$bi"•"$i"]"
-echo
-echo $i"────────────────────────────────   ─────"
-
-  (untuk run gunakan command line : python ip.py)
+────────────────────────────────────
+|  INDONESIA CYBER - SGB TEAM  |
+────────────────────────────────────
+| AUTHOR : wapbaru.com         |
+| Contact Email : wwx@dr.com   |
+────────────────────────────────────
+ (untuk run gunakan command line : python ip.py)
+────────────────────────────────────
+  
   """)
 
 def menu():
