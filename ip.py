@@ -15,6 +15,7 @@ def logo():
     print("""
     
   (untuk run gunakan command line : python ip.py)
+  """)
 
 def menu():
     os.system("clear")
