@@ -22,11 +22,7 @@ def jalan(z):
 
 def logo():
     print("""
-────────────────────────────────────
-|  INDONESIA CYBER - SGB TEAM  |
-────────────────────────────────────
-| AUTHOR : wapbaru.com         |
-| Contact Email : wwx@dr.com   |
+
 ────────────────────────────────────
 (untuk run command line : python ip.py)
 ────────────────────────────────────
