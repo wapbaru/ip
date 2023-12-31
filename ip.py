@@ -28,9 +28,9 @@ def logo():
 | AUTHOR : wapbaru.com         |
 | Contact Email : wwx@dr.com   |
 ────────────────────────────────────
- (untuk run gunakan command line : python ip.py)
+(untuk run command line : python ip.py)
 ────────────────────────────────────
-  
+
   """)
 
 def menu():
