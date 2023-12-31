@@ -24,7 +24,7 @@ def logo():
     print("""
 
 ────────────────────────────────────
-(untuk run command line : python ip.py)
+untuk run command line : python ip.py
 ────────────────────────────────────
 
   """)
