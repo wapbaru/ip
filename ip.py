@@ -148,6 +148,7 @@ def iptarget():
     except KeyError:
         tz = " "
     try:
+	    
 	de = a["lat"]
     except KeyError:
         de = " "
