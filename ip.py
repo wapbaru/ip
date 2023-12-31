@@ -87,7 +87,7 @@ def ipkamu():
         de = " "
     try:
 
-        di = a["lot"]
+        di = a["lon"]
     except KeyError:
         di = " "
     try: 
@@ -148,6 +148,15 @@ def iptarget():
     except KeyError:
         tz = " "
     try:
+	de = a["lat"]
+    except KeyError:
+        de = " "
+    try:
+
+        di = a["lon"]
+    except KeyError:
+        di = " "
+    try: 
         sp = a["isp"]
     except KeyError:
         sp = " "
@@ -160,6 +169,8 @@ def iptarget():
     jalan("Kode Pos : " + kb)
     jalan("Zona Waktu : " + tz)
     jalan("Provider : " + sp)
+    jalan("Latitude : " + de)
+    jalan("Longtitude : " + di)
     jalan("Info Lengkap : http://ip-api.com/#" + ip)
     jalan("Author       : http://wapbaru.com/")
     kembali()
