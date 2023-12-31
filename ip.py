@@ -98,6 +98,7 @@ def ipkamu():
     jalan("Zona Waktu : " + tz)
     jalan("Provider : " + sp)
     jalan("Info Lengkap : http://ip-api.com/#" + ip)
+    jalan("Author       : http://wapbaru.com/")
     kembali()
 
 def iptarget():
@@ -152,6 +153,7 @@ def iptarget():
     jalan("Zona Waktu : " + tz)
     jalan("Provider : " + sp)
     jalan("Info Lengkap : http://ip-api.com/#" + ip)
+    jalan("Author       : http://wapbaru.com/")
     kembali()
 
 def kembali():
