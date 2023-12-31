@@ -11,10 +11,7 @@ def jalan(z):
 
 def logo():
     print("""
-  ___ ___   _    ___   ___ 
- |_ _| _ \ | |  / _ \ / __|
-  | ||  _/ | |_| (_) | (__ 
- |___|_|   |____\___/ \___|""")
+  (untuk run gunakan command line : python ip.py)
 
 def menu():
     os.system("clear")
